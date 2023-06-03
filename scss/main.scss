@@ -1,0 +1,144 @@
+@import 'config';
+
+
+body{
+    overflow-x: hidden;
+}
+.front-page{
+    height:100vh;
+    width:100vw;
+    img{
+        object-fit: cover;
+        width:100%;
+        height:100vh;
+    
+    }
+    .content{
+        position:absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        
+        width:100%;
+        height:100%;
+        .heading{
+            width: 40%;
+        text-align: end;    
+            padding :50px 80px 50px 80px;   
+    }       
+        flex-direction: column;
+}}    
+
+
+
+.brief{
+width:100vw;
+
+
+.brief-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    overflow: hidden;
+    .content{
+        width:50vw;
+        padding:0 70px 70px;
+        .head-main{
+            position:relative;
+            display: flex;
+            
+            .heading{
+                padding:70px 0 70px 0;  
+                z-index:1;
+            }
+            .detail{
+                margin-bottom: 50px;
+            }  
+            .heading-bottom{
+                padding-top:70px;
+                position:absolute;
+                color: lightgray;
+            }   
+        }   
+    }
+    .right{
+        .head-main{
+            flex-direction: row-reverse;
+        }
+        text-align: right;
+    }
+
+    img{
+        object-fit: cover;
+        width:50vw;   
+        height:100%;   
+    }
+}
+
+
+}
+
+.buy-section{
+
+    
+    height:100vh;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+        .phone{
+            height: 400px;
+            border: 1px solid rgb(182, 182, 182);
+            border-radius:10px ;
+            margin:20px;
+        font-size: 1rem;
+        overflow: hidden;
+        img{
+            width:200px; 
+        
+        margin-bottom: 50px;
+        }
+            .details{
+
+             ul{
+                list-style-type: none;
+             }   
+             display: flex;
+            justify-content: center;  
+        flex-direction: column;
+    align-items: center;       }
+            .buynow{
+                font-size: 15px;
+                color:white;
+                border-radius: 5px;
+                width:60px;
+                height:30px;
+                margin:10px;
+
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                                background-color: rgb(0, 94, 217);
+                text-align: center;
+
+                &:hover{
+                    background-color: lightgrey;
+                    color:black;
+                    cursor:pointer;    
+                    border:1px solid black;              
+                }
+
+
+            }
+    }
+
+    .display-4{
+
+        padding-left:30px;
+    
+    
+    }
+}
